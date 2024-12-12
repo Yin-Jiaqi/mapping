@@ -1,0 +1,602 @@
+Iteration:  0
+area:18473.0,Current best area: 18473.0
+Iteration:  1
+area:17708.0,Current best area: 17708.0
+Iteration:  2
+area:None,Current best area: 17708.0
+Iteration:  3
+area:18660.0,Current best area: 17708.0
+Iteration:  4
+area:17334.0,Current best area: 17334.0
+Iteration:  5
+area:18122.0,Current best area: 17334.0
+Iteration:  6
+area:18473.0,Current best area: 17334.0
+Iteration:  7
+area:17334.0,Current best area: 17334.0
+Iteration:  8
+area:16960.0,Current best area: 16960.0
+Iteration:  9
+area:18660.0,Current best area: 16960.0
+Iteration:  10
+area:19195.0,Current best area: 16960.0
+Iteration:  11
+area:18621.0,Current best area: 16960.0
+Iteration:  12
+area:19204.0,Current best area: 16960.0
+Iteration:  13
+area:17708.0,Current best area: 16960.0
+Iteration:  14
+area:17708.0,Current best area: 16960.0
+Iteration:  15
+area:17334.0,Current best area: 16960.0
+Iteration:  16
+area:17334.0,Current best area: 16960.0
+Iteration:  17
+area:18848.0,Current best area: 16960.0
+Iteration:  18
+area:17334.0,Current best area: 16960.0
+Iteration:  19
+area:18473.0,Current best area: 16960.0
+Iteration:  20
+area:18942.0,Current best area: 16960.0
+Iteration:  21
+area:18660.0,Current best area: 16960.0
+Iteration:  22
+area:17987.0,Current best area: 16960.0
+Iteration:  23
+area:18660.0,Current best area: 16960.0
+Iteration:  24
+area:17334.0,Current best area: 16960.0
+Iteration:  25
+area:18660.0,Current best area: 16960.0
+Iteration:  26
+area:19224.0,Current best area: 16960.0
+Iteration:  27
+area:17334.0,Current best area: 16960.0
+Iteration:  28
+area:18473.0,Current best area: 16960.0
+Iteration:  29
+area:18621.0,Current best area: 16960.0
+Iteration:  30
+area:19204.0,Current best area: 16960.0
+Iteration:  31
+area:17775.0,Current best area: 16960.0
+Iteration:  32
+area:18358.0,Current best area: 16960.0
+Iteration:  33
+area:18473.0,Current best area: 16960.0
+Iteration:  34
+area:18621.0,Current best area: 16960.0
+Iteration:  35
+area:17054.0,Current best area: 16960.0
+Iteration:  36
+area:17334.0,Current best area: 16960.0
+Iteration:  37
+area:18473.0,Current best area: 16960.0
+Iteration:  38
+area:16960.0,Current best area: 16960.0
+Iteration:  39
+area:18358.0,Current best area: 16960.0
+Iteration:  40
+area:18365.0,Current best area: 16960.0
+Iteration:  41
+area:17775.0,Current best area: 16960.0
+Iteration:  42
+area:17708.0,Current best area: 16960.0
+Iteration:  43
+area:17872.0,Current best area: 16960.0
+Iteration:  44
+area:17334.0,Current best area: 16960.0
+Iteration:  45
+area:17334.0,Current best area: 16960.0
+Iteration:  46
+area:17775.0,Current best area: 16960.0
+Iteration:  47
+area:18358.0,Current best area: 16960.0
+Iteration:  48
+area:17054.0,Current best area: 16960.0
+Iteration:  49
+area:18473.0,Current best area: 16960.0
+Iteration:  50
+area:17847.0,Current best area: 16960.0
+Iteration:  51
+area:18660.0,Current best area: 16960.0
+Iteration:  52
+area:18707.0,Current best area: 16960.0
+Iteration:  53
+area:17334.0,Current best area: 16960.0
+Iteration:  54
+area:17775.0,Current best area: 16960.0
+Iteration:  55
+area:17708.0,Current best area: 16960.0
+Iteration:  56
+area:17775.0,Current best area: 16960.0
+Iteration:  57
+area:16960.0,Current best area: 16960.0
+Iteration:  58
+area:17706.0,Current best area: 16960.0
+Iteration:  59
+area:17706.0,Current best area: 16960.0
+Iteration:  60
+area:17708.0,Current best area: 16960.0
+Iteration:  61
+area:18621.0,Current best area: 16960.0
+Iteration:  62
+area:18895.0,Current best area: 16960.0
+Iteration:  63
+area:17775.0,Current best area: 16960.0
+Iteration:  64
+area:19268.0,Current best area: 16960.0
+Iteration:  65
+area:18594.0,Current best area: 16960.0
+Iteration:  66
+area:16960.0,Current best area: 16960.0
+Iteration:  67
+area:17334.0,Current best area: 16960.0
+Iteration:  68
+area:18621.0,Current best area: 16960.0
+Iteration:  69
+area:17775.0,Current best area: 16960.0
+Iteration:  70
+area:17775.0,Current best area: 16960.0
+Iteration:  71
+area:18473.0,Current best area: 16960.0
+Iteration:  72
+area:17775.0,Current best area: 16960.0
+Iteration:  73
+area:18358.0,Current best area: 16960.0
+Iteration:  74
+area:18358.0,Current best area: 16960.0
+Iteration:  75
+area:18358.0,Current best area: 16960.0
+Iteration:  76
+area:18473.0,Current best area: 16960.0
+Iteration:  77
+area:18473.0,Current best area: 16960.0
+Iteration:  78
+area:18660.0,Current best area: 16960.0
+Iteration:  79
+area:17708.0,Current best area: 16960.0
+Iteration:  80
+area:18358.0,Current best area: 16960.0
+Iteration:  81
+area:18660.0,Current best area: 16960.0
+Iteration:  82
+area:18473.0,Current best area: 16960.0
+Iteration:  83
+area:18358.0,Current best area: 16960.0
+Iteration:  84
+area:17775.0,Current best area: 16960.0
+Iteration:  85
+area:17054.0,Current best area: 16960.0
+Iteration:  86
+area:18358.0,Current best area: 16960.0
+Iteration:  87
+area:18621.0,Current best area: 16960.0
+Iteration:  88
+area:18473.0,Current best area: 16960.0
+Iteration:  89
+area:17334.0,Current best area: 16960.0
+Iteration:  90
+area:16960.0,Current best area: 16960.0
+Iteration:  91
+area:18660.0,Current best area: 16960.0
+Iteration:  92
+area:17054.0,Current best area: 16960.0
+Iteration:  93
+area:18660.0,Current best area: 16960.0
+Iteration:  94
+area:17706.0,Current best area: 16960.0
+Iteration:  95
+area:18180.0,Current best area: 16960.0
+Iteration:  96
+area:17775.0,Current best area: 16960.0
+Iteration:  97
+area:19526.0,Current best area: 16960.0
+Iteration:  98
+area:18473.0,Current best area: 16960.0
+Iteration:  99
+area:17334.0,Current best area: 16960.0
+Iteration:  100
+area:17242.0,Current best area: 16960.0
+Iteration:  101
+area:19204.0,Current best area: 16960.0
+Iteration:  102
+area:18473.0,Current best area: 16960.0
+Iteration:  103
+area:18473.0,Current best area: 16960.0
+Iteration:  104
+area:18660.0,Current best area: 16960.0
+Iteration:  105
+area:17334.0,Current best area: 16960.0
+Iteration:  106
+area:17706.0,Current best area: 16960.0
+Iteration:  107
+area:18660.0,Current best area: 16960.0
+Iteration:  108
+area:17706.0,Current best area: 16960.0
+Iteration:  109
+area:18660.0,Current best area: 16960.0
+Iteration:  110
+area:17334.0,Current best area: 16960.0
+Iteration:  111
+area:19035.0,Current best area: 16960.0
+Iteration:  112
+area:17334.0,Current best area: 16960.0
+Iteration:  113
+area:17775.0,Current best area: 16960.0
+Iteration:  114
+area:17334.0,Current best area: 16960.0
+Iteration:  115
+area:19012.0,Current best area: 16960.0
+Iteration:  116
+area:17334.0,Current best area: 16960.0
+Iteration:  117
+area:17054.0,Current best area: 16960.0
+Iteration:  118
+area:17775.0,Current best area: 16960.0
+Iteration:  119
+area:17334.0,Current best area: 16960.0
+Iteration:  120
+area:17238.0,Current best area: 16960.0
+Iteration:  121
+area:17801.0,Current best area: 16960.0
+Iteration:  122
+area:19204.0,Current best area: 16960.0
+Iteration:  123
+area:18473.0,Current best area: 16960.0
+Iteration:  124
+area:17334.0,Current best area: 16960.0
+Iteration:  125
+area:18965.0,Current best area: 16960.0
+Iteration:  126
+area:18848.0,Current best area: 16960.0
+Iteration:  127
+area:18385.0,Current best area: 16960.0
+Iteration:  128
+area:18777.0,Current best area: 16960.0
+Iteration:  129
+area:18660.0,Current best area: 16960.0
+Iteration:  130
+area:18594.0,Current best area: 16960.0
+Iteration:  131
+area:18473.0,Current best area: 16960.0
+Iteration:  132
+area:19618.0,Current best area: 16960.0
+Iteration:  133
+area:17519.0,Current best area: 16960.0
+Iteration:  134
+area:18594.0,Current best area: 16960.0
+Iteration:  135
+area:18660.0,Current best area: 16960.0
+Iteration:  136
+area:17706.0,Current best area: 16960.0
+Iteration:  137
+area:18473.0,Current best area: 16960.0
+Iteration:  138
+area:17775.0,Current best area: 16960.0
+Iteration:  139
+area:16960.0,Current best area: 16960.0
+Iteration:  140
+area:18660.0,Current best area: 16960.0
+Iteration:  141
+area:17334.0,Current best area: 16960.0
+Iteration:  142
+area:18122.0,Current best area: 16960.0
+Iteration:  143
+area:17075.0,Current best area: 16960.0
+Iteration:  144
+area:18180.0,Current best area: 16960.0
+Iteration:  145
+area:19618.0,Current best area: 16960.0
+Iteration:  146
+area:18473.0,Current best area: 16960.0
+Iteration:  147
+area:18660.0,Current best area: 16960.0
+Iteration:  148
+area:17706.0,Current best area: 16960.0
+Iteration:  149
+area:17706.0,Current best area: 16960.0
+Iteration:  150
+area:17992.0,Current best area: 16960.0
+Iteration:  151
+area:17775.0,Current best area: 16960.0
+Iteration:  152
+area:17775.0,Current best area: 16960.0
+Iteration:  153
+area:17334.0,Current best area: 16960.0
+Iteration:  154
+area:17708.0,Current best area: 16960.0
+Iteration:  155
+area:17708.0,Current best area: 16960.0
+Iteration:  156
+area:17054.0,Current best area: 16960.0
+Iteration:  157
+area:17054.0,Current best area: 16960.0
+Iteration:  158
+area:18660.0,Current best area: 16960.0
+Iteration:  159
+area:18267.0,Current best area: 16960.0
+Iteration:  160
+area:17054.0,Current best area: 16960.0
+Iteration:  161
+area:17708.0,Current best area: 16960.0
+Iteration:  162
+area:18870.0,Current best area: 16960.0
+Iteration:  163
+area:18180.0,Current best area: 16960.0
+Iteration:  164
+area:18358.0,Current best area: 16960.0
+Iteration:  165
+area:17147.0,Current best area: 16960.0
+Iteration:  166
+area:17334.0,Current best area: 16960.0
+Iteration:  167
+area:18473.0,Current best area: 16960.0
+Iteration:  168
+area:17334.0,Current best area: 16960.0
+Iteration:  169
+area:18552.0,Current best area: 16960.0
+Iteration:  170
+area:17054.0,Current best area: 16960.0
+Iteration:  171
+area:17775.0,Current best area: 16960.0
+Iteration:  172
+area:18660.0,Current best area: 16960.0
+Iteration:  173
+area:18358.0,Current best area: 16960.0
+Iteration:  174
+area:18523.0,Current best area: 16960.0
+Iteration:  175
+area:17334.0,Current best area: 16960.0
+Iteration:  176
+area:17334.0,Current best area: 16960.0
+Iteration:  177
+area:17334.0,Current best area: 16960.0
+Iteration:  178
+area:17708.0,Current best area: 16960.0
+Iteration:  179
+area:18594.0,Current best area: 16960.0
+Iteration:  180
+area:19214.0,Current best area: 16960.0
+Iteration:  181
+area:18473.0,Current best area: 16960.0
+Iteration:  182
+area:17775.0,Current best area: 16960.0
+Iteration:  183
+area:17706.0,Current best area: 16960.0
+Iteration:  184
+area:17054.0,Current best area: 16960.0
+Iteration:  185
+area:18473.0,Current best area: 16960.0
+Iteration:  186
+area:17334.0,Current best area: 16960.0
+Iteration:  187
+area:17775.0,Current best area: 16960.0
+Iteration:  188
+area:17775.0,Current best area: 16960.0
+Iteration:  189
+area:17146.0,Current best area: 16960.0
+Iteration:  190
+area:18314.0,Current best area: 16960.0
+Iteration:  191
+area:18180.0,Current best area: 16960.0
+Iteration:  192
+area:17775.0,Current best area: 16960.0
+Iteration:  193
+area:16960.0,Current best area: 16960.0
+Iteration:  194
+area:17775.0,Current best area: 16960.0
+Iteration:  195
+area:17334.0,Current best area: 16960.0
+Iteration:  196
+area:18660.0,Current best area: 16960.0
+Iteration:  197
+area:18631.0,Current best area: 16960.0
+Iteration:  198
+area:18660.0,Current best area: 16960.0
+Iteration:  199
+area:18660.0,Current best area: 16960.0
+Iteration:  200
+area:17054.0,Current best area: 16960.0
+Iteration:  201
+area:18358.0,Current best area: 16960.0
+Iteration:  202
+area:17054.0,Current best area: 16960.0
+Iteration:  203
+area:17775.0,Current best area: 16960.0
+Iteration:  204
+area:17334.0,Current best area: 16960.0
+Iteration:  205
+area:17708.0,Current best area: 16960.0
+Iteration:  206
+area:18199.0,Current best area: 16960.0
+Iteration:  207
+area:17334.0,Current best area: 16960.0
+Iteration:  208
+area:18473.0,Current best area: 16960.0
+Iteration:  209
+area:19035.0,Current best area: 16960.0
+Iteration:  210
+area:18473.0,Current best area: 16960.0
+Iteration:  211
+area:17334.0,Current best area: 16960.0
+Iteration:  212
+area:17775.0,Current best area: 16960.0
+Iteration:  213
+area:18660.0,Current best area: 16960.0
+Iteration:  214
+area:17334.0,Current best area: 16960.0
+Iteration:  215
+area:17334.0,Current best area: 16960.0
+Iteration:  216
+area:18358.0,Current best area: 16960.0
+Iteration:  217
+area:17054.0,Current best area: 16960.0
+Iteration:  218
+area:17334.0,Current best area: 16960.0
+Iteration:  219
+area:17754.0,Current best area: 16960.0
+Iteration:  220
+area:18473.0,Current best area: 16960.0
+Iteration:  221
+area:17519.0,Current best area: 16960.0
+Iteration:  222
+area:18180.0,Current best area: 16960.0
+Iteration:  223
+area:16960.0,Current best area: 16960.0
+Iteration:  224
+area:18621.0,Current best area: 16960.0
+Iteration:  225
+area:18621.0,Current best area: 16960.0
+Iteration:  226
+area:18337.0,Current best area: 16960.0
+Iteration:  227
+area:18358.0,Current best area: 16960.0
+Iteration:  228
+area:17708.0,Current best area: 16960.0
+Iteration:  229
+area:17054.0,Current best area: 16960.0
+Iteration:  230
+area:18180.0,Current best area: 16960.0
+Iteration:  231
+area:18358.0,Current best area: 16960.0
+Iteration:  232
+area:18547.0,Current best area: 16960.0
+Iteration:  233
+area:17334.0,Current best area: 16960.0
+Iteration:  234
+area:17334.0,Current best area: 16960.0
+Iteration:  235
+area:19314.0,Current best area: 16960.0
+Iteration:  236
+area:17823.0,Current best area: 16960.0
+Iteration:  237
+area:17334.0,Current best area: 16960.0
+Iteration:  238
+area:18473.0,Current best area: 16960.0
+Iteration:  239
+area:18660.0,Current best area: 16960.0
+Iteration:  240
+area:17775.0,Current best area: 16960.0
+Iteration:  241
+area:18942.0,Current best area: 16960.0
+Iteration:  242
+area:17708.0,Current best area: 16960.0
+Iteration:  243
+area:18358.0,Current best area: 16960.0
+Iteration:  244
+area:17706.0,Current best area: 16960.0
+Iteration:  245
+area:18966.0,Current best area: 16960.0
+Iteration:  246
+area:18358.0,Current best area: 16960.0
+Iteration:  247
+area:17775.0,Current best area: 16960.0
+Iteration:  248
+area:18660.0,Current best area: 16960.0
+Iteration:  249
+area:18545.0,Current best area: 16960.0
+Iteration:  250
+area:18621.0,Current best area: 16960.0
+Iteration:  251
+area:16960.0,Current best area: 16960.0
+Iteration:  252
+area:18358.0,Current best area: 16960.0
+Iteration:  253
+area:18473.0,Current best area: 16960.0
+Iteration:  254
+area:17708.0,Current best area: 16960.0
+Iteration:  255
+area:19319.0,Current best area: 16960.0
+Iteration:  256
+area:17054.0,Current best area: 16960.0
+Iteration:  257
+area:17334.0,Current best area: 16960.0
+Iteration:  258
+area:17334.0,Current best area: 16960.0
+Iteration:  259
+area:16960.0,Current best area: 16960.0
+Iteration:  260
+area:18660.0,Current best area: 16960.0
+Iteration:  261
+area:17334.0,Current best area: 16960.0
+Iteration:  262
+area:17708.0,Current best area: 16960.0
+Iteration:  263
+area:18247.0,Current best area: 16960.0
+Iteration:  264
+area:18940.0,Current best area: 16960.0
+Iteration:  265
+area:17334.0,Current best area: 16960.0
+Iteration:  266
+area:17054.0,Current best area: 16960.0
+Iteration:  267
+area:18358.0,Current best area: 16960.0
+Iteration:  268
+area:17708.0,Current best area: 16960.0
+Iteration:  269
+area:18660.0,Current best area: 16960.0
+Iteration:  270
+area:18660.0,Current best area: 16960.0
+Iteration:  271
+area:17706.0,Current best area: 16960.0
+Iteration:  272
+area:17706.0,Current best area: 16960.0
+Iteration:  273
+area:17775.0,Current best area: 16960.0
+Iteration:  274
+area:17334.0,Current best area: 16960.0
+Iteration:  275
+area:17775.0,Current best area: 16960.0
+Iteration:  276
+area:18358.0,Current best area: 16960.0
+Iteration:  277
+area:18572.0,Current best area: 16960.0
+Iteration:  278
+area:18267.0,Current best area: 16960.0
+Iteration:  279
+area:18621.0,Current best area: 16960.0
+Iteration:  280
+area:19175.0,Current best area: 16960.0
+Iteration:  281
+area:17775.0,Current best area: 16960.0
+Iteration:  282
+area:17334.0,Current best area: 16960.0
+Iteration:  283
+area:18594.0,Current best area: 16960.0
+Iteration:  284
+area:18473.0,Current best area: 16960.0
+Iteration:  285
+area:18473.0,Current best area: 16960.0
+Iteration:  286
+area:17334.0,Current best area: 16960.0
+Iteration:  287
+area:18545.0,Current best area: 16960.0
+Iteration:  288
+area:18358.0,Current best area: 16960.0
+Iteration:  289
+area:18660.0,Current best area: 16960.0
+Iteration:  290
+area:18660.0,Current best area: 16960.0
+Iteration:  291
+area:17334.0,Current best area: 16960.0
+Iteration:  292
+area:16960.0,Current best area: 16960.0
+Iteration:  293
+area:17334.0,Current best area: 16960.0
+Iteration:  294
+area:17054.0,Current best area: 16960.0
+Iteration:  295
+area:17519.0,Current best area: 16960.0
+Iteration:  296
+area:17708.0,Current best area: 16960.0
+Iteration:  297
+area:18358.0,Current best area: 16960.0
+Iteration:  298
+area:17775.0,Current best area: 16960.0
+Iteration:  299
+area:18940.0,Current best area: 16960.0
+Best Cells: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 46, 47, 50, 52, 53, 54, 56, 59, 60, 61, 62, 64, 67, 71, 72, 74, 82, 83, 84, 85, 86, 87, 88, 89, 90, 92, 94, 96, 97, 99, 100, 101, 102, 104, 108, 112, 113, 118, 120, 121, 124, 125, 126, 128, 129, 131, 133, 137]
+Best Reward: -0.8746888406949257

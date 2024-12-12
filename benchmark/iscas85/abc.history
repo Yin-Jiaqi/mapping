@@ -1,0 +1,16 @@
+read c17.bench
+strash
+dch -v
+write c17_op.bench
+read c432.bench
+write c432_map.bench
+write_bench c432_map.bench
+write_bench c432_map.blif
+write c432_map.blif
+cec mul3.bench mul3.bench
+cec mul2.bench mul3.bench
+source -s abc.rc
+read ../../7nm.genlib
+read_genlib ../../7nm.genlib
+read c499.bench
+read c432.bench

@@ -1,0 +1,8 @@
+# Benchmark "benchmark/iscas85/c17" written by ABC on Wed Aug 14 14:41:44 2024
+.model benchmark/iscas85/c17
+.inputs 1 2 3 6 7
+.outputs 22 23
+.gate NAND2xp33_ASAP7_75t_L     A=6 B=3 Y=new_n8
+.gate AO22x1_ASAP7_75t_L        A1=new_n8 A2=2 B1=3 B2=1 Y=22
+.gate OA21x2_ASAP7_75t_L        A1=7 B=new_n8 A2=2 Y=23
+.end

@@ -1,0 +1,15 @@
+.model mul2_EGG
+.inputs a0 a1 b0 b1
+.outputs m0 m1 m2 m3
+.gate NAND2xp33_ASAP7_75t_L A=b0 B=a1 Y=temp_1
+.gate NAND2xp33_ASAP7_75t_L A=b1 B=a0 Y=temp_2
+.gate OR2x2_ASAP7_75t_L A=temp_2 B=temp_1 Y=temp_3
+.gate NAND2xp33_ASAP7_75t_L A=b1 B=a1 Y=temp_4
+.gate NOR2xp33_ASAP7_75t_L A=temp_4 B=temp_3 Y=m3
+.gate NOR2xp33_ASAP7_75t_L A=temp_2 B=temp_1 Y=temp_5
+.gate XOR2xp5_ASAP7_75t_L A=temp_5 B=temp_4 Y=temp_6
+.gate INVx1_ASAP7_75t_L A=temp_6 Y=m2
+.gate XNOR2xp5_ASAP7_75t_L A=temp_2 B=temp_1 Y=temp_7
+.gate INVx1_ASAP7_75t_L A=temp_7 Y=m1
+.gate AND2x2_ASAP7_75t_L A=a0 B=b0 Y=m0
+.end

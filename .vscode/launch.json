@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "/export/jyin629/egraph_mapping_new/target/debug/egraph_mapping",
+            "args": ["c432"],
+            "cwd": "/export/jyin629/egraph_mapping_new",
+            "sourceLanguages": ["rust"]
+        }
+    ]
+}

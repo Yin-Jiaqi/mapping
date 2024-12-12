@@ -1,0 +1,14 @@
+# Benchmark "benchmark/iscas85/mul2" written by ABC on Thu Aug  8 09:37:50 2024
+.model benchmark/iscas85/mul2
+.inputs a0 a1 b0 b1
+.outputs m0 m1 m2 m3
+.gate AND2x2_ASAP7_75t_L        A=b0 B=a0 Y=m0
+.gate INVx1_ASAP7_75t_L         A=a1 Y=new_n10
+.gate INVx1_ASAP7_75t_L         A=b0 Y=new_n11
+.gate AND4x1_ASAP7_75t_L        A=b1 B=b0 C=a1 D=a0 Y=new_n12
+.gate NAND2xp33_ASAP7_75t_L     A=b1 B=a0 Y=new_n13
+.gate O2A1O1Ixp33_ASAP7_75t_L   A1=new_n11 A2=new_n10 C=new_n12 B=new_n13 Y=m1
+.gate NAND2xp33_ASAP7_75t_L     A=b1 B=a1 Y=new_n15
+.gate NOR2xp33_ASAP7_75t_L      A=new_n15 B=m0 Y=m2
+.gate AND3x1_ASAP7_75t_L        A=new_n12 B=b1 C=a1 Y=m3
+.end

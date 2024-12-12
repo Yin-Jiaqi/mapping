@@ -1,0 +1,91 @@
+cec benchmark/synthetic/c432/c432.blif benchmark/synthetic/c432/c432_map.blif
+read benchmark/synthetic/c2670/
+read benchmark/synthetic/c2670/c2670_map.blif
+read benchmark/synthetic/c2670/c2670.blif
+read benchmark/iscas85/c880.bench
+cec benchmark/iscas85/c880.bench benchmark/output/c880/c880.blif
+cec benchmark/iscas85/c880.bench benchmark/output/c880/c880_map.blif
+read benchmark/iscas85/c2670.bench
+write benchmark/output/c2670/c2670ddd.blif
+cec benchmark/output/c2670/c2670ddd.blif benchmark/output/c2670/c2670.blif
+read benchmark/iscas85/85
+read benchmark/iscas85/c17.bench
+read benchmark/output/c432/c432.blif
+read benchmark/output/c432/c432_map.blif
+read 7nm.genlib
+read_genlib 7nm.genlib
+read benchmark/output/c17/c17.blif
+source -s abc.rc
+gen mul 2
+gen -mul 2
+gen -mul
+gen -m
+gen -m 2
+read 2
+gen -m -N=3
+gen -m=3
+gen 3 -m
+gen 3 -m ooo
+gen -2 -m ooo
+gen -N -m ooo
+gen -N=2 -m ooo
+gen -N 3 -m ooo
+read ooo
+gen -N 2 -m mul2
+source -s abc.rc
+help
+read mul2
+read mul2.blif
+write bench
+write_bench short_names mul2.bench
+short_names mul2.bench
+write_bench mul2.bench
+read mul2.bench
+source -s abc.rc
+gen -N 2 -L 0 -m ooo
+gen -N 2 -L 0 -m ooo.bench
+read 7nm.genlib
+read_genlib 7nm.genlib
+gen -m ooo.bench
+gen -N 2 -m
+gen -N 2 -m ooo
+read ooo
+gen -N 2 -m ooo ooo.bench
+gen -h
+clear
+abc 01> gen -N 2 -m <output_file_name>
+gen -N 2 -m ooo.bench
+read ooo.bench
+gen -N 2 -m ooo.blif
+read ooo.blif
+write_bench
+write_bench -l N ooo.bench
+write_bench ooo.bench
+write_bench -l ooo.bench
+gen -N 16 -m mult16.blif
+read mult16.blif
+strash
+write mult16.bench
+&get
+&atree -v
+write temp_blifs/benchmarks/s838a._bs_ucb_temp.blif
+ write benchmarks/s838a._bs_ucb_temp.blif
+source -s abc.rc
+read 7nm.genlib
+read_genlib 7nm.genlib
+read benchmarks/s838a.bench
+map -a
+write benchmarks/s838a._bs_ucb_temp.blif
+read 7nm.lib
+read_lib 7nm.lib
+read -m benchmarks/s838a._bs_ucb_temp.blif
+topo
+upsize
+dnsize
+stime
+clear
+read 7nm.genlib
+read benchmark/iscas85/c1355.bench
+read_genlib 7nm.genlib
+read_genlib
+source -s abc.rc

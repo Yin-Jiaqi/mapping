@@ -1,0 +1,3 @@
+.model c17_EGG
+.inputs 1 2 3 6 7
+.outputs 22 23

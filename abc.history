@@ -84,8 +84,8 @@ upsize
 dnsize
 stime
 clear
-read 7nm.genlib
 read benchmark/iscas85/c1355.bench
-read_genlib 7nm.genlib
 read_genlib
 source -s abc.rc
+read 7nm.genlib
+read_genlib 7nm.genlib

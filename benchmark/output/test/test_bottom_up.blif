@@ -1,5 +1,5 @@
 .model test_EGG
 .inputs 1 2
 .outputs 3
-.gate XOR2xp5_ASAP7_75t_L A=2 B=1 Y=3
+.gate XOR2xp5_ASAP7_75t_L A=1 B=2 Y=3
 .end

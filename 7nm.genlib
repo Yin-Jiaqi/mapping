@@ -20,7 +20,6 @@ GATE AND4x1_ASAP7_75t_L            1.63  Y=(A * B * C * D);                     
 GATE AND4x2_ASAP7_75t_L            3.73  Y=(A * B * C * D);                                           PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00
 GATE AND5x1_ASAP7_75t_L            1.87  Y=(A * B * C * D * E);                                       PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00
 GATE AND5x2_ASAP7_75t_L            4.67  Y=(A * B * C * D * E);                                       PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00
-GATE HAxp5_ASAP7_75t_L2             2.10  Y=(A * B) + (!A * !B);                                      PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00
 GATE MAJIxp5_ASAP7_75t_L           1.63  Y=(!A * !B) + (!A * !C) + (!B * !C);                         PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00
 GATE MAJx2_ASAP7_75t_L             2.10  Y=(A * B) + (A * C) + (B * C);                               PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00
 GATE MAJx3_ASAP7_75t_L             2.33  Y=(A * B) + (A * C) + (B * C);                               PIN *  UNKNOWN   1 999     1.00     0.00     1.00     0.00

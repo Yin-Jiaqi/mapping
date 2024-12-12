@@ -1,307 +1,234 @@
 .model c1355_EGG
 .inputs 1 8 15 22 29 36 43 50 57 64 71 78 85 92 99 106 113 120 127 134 141 148 155 162 169 176 183 190 197 204 211 218 225 226 227 228 229 230 231 232 233
 .outputs 1324 1325 1326 1327 1328 1329 1330 1331 1332 1333 1334 1335 1336 1337 1338 1339 1340 1341 1342 1343 1344 1345 1346 1347 1348 1349 1350 1351 1352 1353 1354 1355
-.gate HAxp5_ASAP7_75t_L1 A=232 B=233 CON=temp_1
-.gate HAxp5_ASAP7_75t_L2 A=99 B=106 SN=temp_2
-.gate HAxp5_ASAP7_75t_L2 A=92 B=85 SN=temp_3
-.gate HAxp5_ASAP7_75t_L2 A=temp_3 B=temp_2 SN=temp_4
-.gate HAxp5_ASAP7_75t_L2 A=29 B=36 SN=temp_5
-.gate HAxp5_ASAP7_75t_L2 A=43 B=50 SN=temp_6
-.gate HAxp5_ASAP7_75t_L2 A=temp_6 B=temp_5 SN=temp_7
-.gate HAxp5_ASAP7_75t_L2 A=temp_7 B=temp_4 SN=temp_8
-.gate HAxp5_ASAP7_75t_L2 A=temp_8 B=temp_1 SN=temp_9
-.gate HAxp5_ASAP7_75t_L2 A=162 B=134 SN=temp_10
-.gate HAxp5_ASAP7_75t_L2 A=190 B=218 SN=temp_11
-.gate HAxp5_ASAP7_75t_L2 A=temp_11 B=temp_10 SN=temp_12
-.gate HAxp5_ASAP7_75t_L2 A=temp_12 B=temp_9 SN=temp_13
-.gate HAxp5_ASAP7_75t_L1 A=231 B=233 CON=temp_14
-.gate HAxp5_ASAP7_75t_L1 A=1 B=8 CON=temp_15
-.gate HAxp5_ASAP7_75t_L1 A=8 B=temp_15 CON=temp_16
-.gate HAxp5_ASAP7_75t_L1 A=1 B=temp_15 CON=temp_17
-.gate HAxp5_ASAP7_75t_L1 A=temp_17 B=temp_16 CON=temp_18
-.gate HAxp5_ASAP7_75t_L1 A=22 B=15 CON=temp_19
-.gate HAxp5_ASAP7_75t_L1 A=22 B=temp_19 CON=temp_20
-.gate HAxp5_ASAP7_75t_L1 A=15 B=temp_19 CON=temp_21
-.gate HAxp5_ASAP7_75t_L1 A=temp_21 B=temp_20 CON=temp_22
-.gate HAxp5_ASAP7_75t_L2 A=temp_22 B=temp_18 SN=temp_23
-.gate HAxp5_ASAP7_75t_L2 A=78 B=71 SN=temp_24
-.gate HAxp5_ASAP7_75t_L2 A=57 B=64 SN=temp_25
-.gate HAxp5_ASAP7_75t_L2 A=temp_25 B=temp_24 SN=temp_26
-.gate HAxp5_ASAP7_75t_L2 A=temp_26 B=temp_23 SN=temp_27
-.gate HAxp5_ASAP7_75t_L2 A=temp_27 B=temp_14 SN=temp_28
-.gate HAxp5_ASAP7_75t_L2 A=155 B=127 SN=temp_29
-.gate HAxp5_ASAP7_75t_L2 A=211 B=183 SN=temp_30
-.gate HAxp5_ASAP7_75t_L2 A=temp_30 B=temp_29 SN=temp_31
-.gate HAxp5_ASAP7_75t_L2 A=temp_31 B=temp_28 SN=temp_32
-.gate HAxp5_ASAP7_75t_L2 A=176 B=204 SN=temp_33
-.gate HAxp5_ASAP7_75t_L2 A=120 B=148 SN=temp_34
-.gate HAxp5_ASAP7_75t_L2 A=temp_34 B=temp_33 SN=temp_35
-.gate HAxp5_ASAP7_75t_L1 A=230 B=233 CON=temp_36
-.gate HAxp5_ASAP7_75t_L2 A=temp_26 B=temp_4 SN=temp_37
-.gate HAxp5_ASAP7_75t_L2 A=temp_37 B=temp_36 SN=temp_38
-.gate HAxp5_ASAP7_75t_L2 A=temp_38 B=temp_35 SN=temp_39
-.gate HAxp5_ASAP7_75t_L2 A=141 B=113 SN=temp_40
-.gate HAxp5_ASAP7_75t_L2 A=197 B=169 SN=temp_41
-.gate HAxp5_ASAP7_75t_L2 A=temp_41 B=temp_40 SN=temp_42
-.gate HAxp5_ASAP7_75t_L1 A=229 B=233 CON=temp_43
-.gate HAxp5_ASAP7_75t_L2 A=temp_7 B=temp_23 SN=temp_44
-.gate HAxp5_ASAP7_75t_L2 A=temp_44 B=temp_43 SN=temp_45
-.gate HAxp5_ASAP7_75t_L2 A=temp_45 B=temp_42 SN=temp_46
-.gate INVx1_ASAP7_75t_L A=temp_46 Y=temp_47
-.gate NAND4xp25_ASAP7_75t_L A=temp_47 B=temp_39 C=temp_32 D=temp_13 Y=temp_48
-.gate INVx1_ASAP7_75t_L A=temp_39 Y=temp_49
-.gate NAND4xp25_ASAP7_75t_L A=temp_46 B=temp_49 C=temp_32 D=temp_13 Y=temp_50
-.gate INVx1_ASAP7_75t_L A=temp_32 Y=temp_51
-.gate NAND4xp25_ASAP7_75t_L A=temp_46 B=temp_39 C=temp_51 D=temp_13 Y=temp_52
-.gate INVx1_ASAP7_75t_L A=temp_13 Y=temp_53
-.gate NAND4xp25_ASAP7_75t_L A=temp_46 B=temp_39 C=temp_32 D=temp_53 Y=temp_54
-.gate NAND4xp25_ASAP7_75t_L A=temp_54 B=temp_52 C=temp_50 D=temp_48 Y=temp_55
-.gate HAxp5_ASAP7_75t_L1 A=228 B=233 CON=temp_56
-.gate HAxp5_ASAP7_75t_L2 A=211 B=218 SN=temp_57
-.gate HAxp5_ASAP7_75t_L2 A=197 B=204 SN=temp_58
-.gate HAxp5_ASAP7_75t_L2 A=temp_58 B=temp_57 SN=temp_59
-.gate HAxp5_ASAP7_75t_L1 A=162 B=155 CON=temp_60
-.gate HAxp5_ASAP7_75t_L1 A=162 B=temp_60 CON=temp_61
-.gate HAxp5_ASAP7_75t_L1 A=155 B=temp_60 CON=temp_62
-.gate HAxp5_ASAP7_75t_L1 A=temp_62 B=temp_61 CON=temp_63
-.gate HAxp5_ASAP7_75t_L1 A=141 B=148 CON=temp_64
-.gate HAxp5_ASAP7_75t_L1 A=148 B=temp_64 CON=temp_65
-.gate HAxp5_ASAP7_75t_L1 A=141 B=temp_64 CON=temp_66
-.gate HAxp5_ASAP7_75t_L1 A=temp_66 B=temp_65 CON=temp_67
-.gate HAxp5_ASAP7_75t_L2 A=temp_67 B=temp_63 SN=temp_68
-.gate HAxp5_ASAP7_75t_L2 A=temp_68 B=temp_59 SN=temp_69
-.gate HAxp5_ASAP7_75t_L2 A=temp_69 B=temp_56 SN=temp_70
-.gate HAxp5_ASAP7_75t_L2 A=22 B=50 SN=temp_71
-.gate HAxp5_ASAP7_75t_L2 A=78 B=106 SN=temp_72
-.gate HAxp5_ASAP7_75t_L2 A=temp_72 B=temp_71 SN=temp_73
-.gate HAxp5_ASAP7_75t_L2 A=temp_73 B=temp_70 SN=temp_74
-.gate INVx1_ASAP7_75t_L A=temp_74 Y=temp_75
-.gate HAxp5_ASAP7_75t_L2 A=43 B=15 SN=temp_76
-.gate HAxp5_ASAP7_75t_L2 A=71 B=99 SN=temp_77
-.gate HAxp5_ASAP7_75t_L2 A=temp_77 B=temp_76 SN=temp_78
-.gate HAxp5_ASAP7_75t_L1 A=227 B=233 CON=temp_79
-.gate HAxp5_ASAP7_75t_L2 A=127 B=134 SN=temp_80
-.gate HAxp5_ASAP7_75t_L2 A=120 B=113 SN=temp_81
-.gate HAxp5_ASAP7_75t_L2 A=temp_81 B=temp_80 SN=temp_82
-.gate HAxp5_ASAP7_75t_L2 A=169 B=176 SN=temp_83
-.gate HAxp5_ASAP7_75t_L2 A=190 B=183 SN=temp_84
-.gate HAxp5_ASAP7_75t_L2 A=temp_84 B=temp_83 SN=temp_85
-.gate HAxp5_ASAP7_75t_L2 A=temp_85 B=temp_82 SN=temp_86
-.gate HAxp5_ASAP7_75t_L2 A=temp_86 B=temp_79 SN=temp_87
-.gate HAxp5_ASAP7_75t_L2 A=temp_87 B=temp_78 SN=temp_88
-.gate HAxp5_ASAP7_75t_L2 A=92 B=64 SN=temp_89
-.gate HAxp5_ASAP7_75t_L2 A=8 B=36 SN=temp_90
-.gate HAxp5_ASAP7_75t_L2 A=temp_90 B=temp_89 SN=temp_91
-.gate HAxp5_ASAP7_75t_L1 A=226 B=233 CON=temp_92
-.gate HAxp5_ASAP7_75t_L2 A=temp_85 B=temp_59 SN=temp_93
-.gate HAxp5_ASAP7_75t_L2 A=temp_93 B=temp_92 SN=temp_94
-.gate HAxp5_ASAP7_75t_L2 A=temp_94 B=temp_91 SN=temp_95
-.gate INVx1_ASAP7_75t_L A=temp_95 Y=temp_96
-.gate HAxp5_ASAP7_75t_L2 A=57 B=85 SN=temp_97
-.gate HAxp5_ASAP7_75t_L2 A=29 B=1 SN=temp_98
-.gate HAxp5_ASAP7_75t_L2 A=temp_98 B=temp_97 SN=temp_99
-.gate HAxp5_ASAP7_75t_L1 A=225 B=233 CON=temp_100
-.gate HAxp5_ASAP7_75t_L2 A=temp_82 B=temp_68 SN=temp_101
-.gate HAxp5_ASAP7_75t_L2 A=temp_101 B=temp_100 SN=temp_102
-.gate HAxp5_ASAP7_75t_L2 A=temp_102 B=temp_99 SN=temp_103
-.gate NAND5xp2_ASAP7_75t_L A=temp_103 B=temp_96 C=temp_88 D=temp_75 E=temp_55 Y=temp_104
-.gate NOR2xp33_ASAP7_75t_L A=temp_13 B=temp_104 Y=temp_105
-.gate HAxp5_ASAP7_75t_L1 A=218 B=temp_105 CON=temp_106
-.gate HAxp5_ASAP7_75t_L1 A=temp_105 B=temp_106 CON=temp_107
-.gate HAxp5_ASAP7_75t_L1 A=218 B=temp_106 CON=temp_108
-.gate HAxp5_ASAP7_75t_L1 A=temp_108 B=temp_107 CON=1355
-.gate NOR2xp33_ASAP7_75t_L A=temp_32 B=temp_104 Y=temp_109
-.gate HAxp5_ASAP7_75t_L1 A=211 B=temp_109 CON=temp_110
-.gate HAxp5_ASAP7_75t_L1 A=temp_109 B=temp_110 CON=temp_111
-.gate HAxp5_ASAP7_75t_L1 A=211 B=temp_110 CON=temp_112
-.gate HAxp5_ASAP7_75t_L1 A=temp_112 B=temp_111 CON=1354
-.gate AND4x1_ASAP7_75t_L A=temp_54 B=temp_52 C=temp_50 D=temp_48 Y=temp_113
-.gate INVx1_ASAP7_75t_L A=temp_88 Y=temp_114
-.gate INVx1_ASAP7_75t_L A=temp_103 Y=temp_115
-.gate NOR5xp2_ASAP7_75t_L A=temp_115 B=temp_95 C=temp_114 D=temp_74 E=temp_113 Y=temp_116
-.gate HAxp5_ASAP7_75t_L1 A=temp_49 B=temp_116 CON=temp_117
-.gate INVx1_ASAP7_75t_L A=temp_117 Y=temp_118
-.gate HAxp5_ASAP7_75t_L1 A=204 B=temp_118 CON=temp_119
-.gate HAxp5_ASAP7_75t_L1 A=temp_118 B=temp_119 CON=temp_120
-.gate HAxp5_ASAP7_75t_L1 A=204 B=temp_119 CON=temp_121
-.gate HAxp5_ASAP7_75t_L1 A=temp_121 B=temp_120 CON=1353
-.gate NOR2xp33_ASAP7_75t_L A=temp_46 B=temp_104 Y=temp_122
-.gate HAxp5_ASAP7_75t_L1 A=197 B=temp_122 CON=temp_123
-.gate HAxp5_ASAP7_75t_L1 A=temp_122 B=temp_123 CON=temp_124
-.gate HAxp5_ASAP7_75t_L1 A=197 B=temp_123 CON=temp_125
-.gate HAxp5_ASAP7_75t_L1 A=temp_125 B=temp_124 CON=1352
-.gate NAND5xp2_ASAP7_75t_L A=temp_103 B=temp_96 C=temp_114 D=temp_74 E=temp_55 Y=temp_126
-.gate NOR2xp33_ASAP7_75t_L A=temp_13 B=temp_126 Y=temp_127
-.gate HAxp5_ASAP7_75t_L1 A=190 B=temp_127 CON=temp_128
-.gate HAxp5_ASAP7_75t_L1 A=temp_127 B=temp_128 CON=temp_129
-.gate HAxp5_ASAP7_75t_L1 A=190 B=temp_128 CON=temp_130
-.gate HAxp5_ASAP7_75t_L1 A=temp_130 B=temp_129 CON=1351
-.gate NOR5xp2_ASAP7_75t_L A=temp_115 B=temp_95 C=temp_88 D=temp_75 E=temp_113 Y=temp_131
-.gate HAxp5_ASAP7_75t_L1 A=temp_51 B=temp_131 CON=temp_132
-.gate INVx1_ASAP7_75t_L A=temp_132 Y=temp_133
-.gate HAxp5_ASAP7_75t_L1 A=183 B=temp_133 CON=temp_134
-.gate HAxp5_ASAP7_75t_L1 A=temp_133 B=temp_134 CON=temp_135
-.gate HAxp5_ASAP7_75t_L1 A=183 B=temp_134 CON=temp_136
-.gate HAxp5_ASAP7_75t_L1 A=temp_136 B=temp_135 CON=1350
-.gate HAxp5_ASAP7_75t_L1 A=temp_49 B=temp_131 CON=temp_137
-.gate INVx1_ASAP7_75t_L A=temp_137 Y=temp_138
-.gate HAxp5_ASAP7_75t_L1 A=176 B=temp_138 CON=temp_139
-.gate HAxp5_ASAP7_75t_L1 A=temp_138 B=temp_139 CON=temp_140
-.gate HAxp5_ASAP7_75t_L1 A=176 B=temp_139 CON=temp_141
-.gate HAxp5_ASAP7_75t_L1 A=temp_141 B=temp_140 CON=1349
-.gate NOR2xp33_ASAP7_75t_L A=temp_46 B=temp_126 Y=temp_142
-.gate HAxp5_ASAP7_75t_L1 A=169 B=temp_142 CON=temp_143
-.gate HAxp5_ASAP7_75t_L1 A=temp_142 B=temp_143 CON=temp_144
-.gate HAxp5_ASAP7_75t_L1 A=169 B=temp_143 CON=temp_145
-.gate HAxp5_ASAP7_75t_L1 A=temp_145 B=temp_144 CON=1348
-.gate NOR5xp2_ASAP7_75t_L A=temp_103 B=temp_96 C=temp_114 D=temp_74 E=temp_113 Y=temp_146
-.gate HAxp5_ASAP7_75t_L1 A=temp_53 B=temp_146 CON=temp_147
-.gate INVx1_ASAP7_75t_L A=temp_147 Y=temp_148
-.gate HAxp5_ASAP7_75t_L1 A=162 B=temp_148 CON=temp_149
-.gate HAxp5_ASAP7_75t_L1 A=temp_148 B=temp_149 CON=temp_150
-.gate HAxp5_ASAP7_75t_L1 A=162 B=temp_149 CON=temp_151
-.gate HAxp5_ASAP7_75t_L1 A=temp_151 B=temp_150 CON=1347
-.gate HAxp5_ASAP7_75t_L1 A=temp_51 B=temp_146 CON=temp_152
-.gate INVx1_ASAP7_75t_L A=temp_152 Y=temp_153
-.gate HAxp5_ASAP7_75t_L1 A=155 B=temp_153 CON=temp_154
-.gate HAxp5_ASAP7_75t_L1 A=temp_153 B=temp_154 CON=temp_155
-.gate HAxp5_ASAP7_75t_L1 A=155 B=temp_154 CON=temp_156
-.gate HAxp5_ASAP7_75t_L1 A=temp_156 B=temp_155 CON=1346
-.gate HAxp5_ASAP7_75t_L1 A=temp_49 B=temp_146 CON=temp_157
-.gate INVx1_ASAP7_75t_L A=temp_157 Y=temp_158
-.gate HAxp5_ASAP7_75t_L1 A=148 B=temp_158 CON=temp_159
-.gate HAxp5_ASAP7_75t_L1 A=temp_158 B=temp_159 CON=temp_160
-.gate HAxp5_ASAP7_75t_L1 A=148 B=temp_159 CON=temp_161
-.gate HAxp5_ASAP7_75t_L1 A=temp_161 B=temp_160 CON=1345
-.gate HAxp5_ASAP7_75t_L1 A=temp_47 B=temp_146 CON=temp_162
-.gate INVx1_ASAP7_75t_L A=temp_162 Y=temp_163
-.gate HAxp5_ASAP7_75t_L1 A=141 B=temp_163 CON=temp_164
-.gate HAxp5_ASAP7_75t_L1 A=temp_163 B=temp_164 CON=temp_165
-.gate HAxp5_ASAP7_75t_L1 A=141 B=temp_164 CON=temp_166
-.gate HAxp5_ASAP7_75t_L1 A=temp_166 B=temp_165 CON=1344
-.gate NAND5xp2_ASAP7_75t_L A=temp_115 B=temp_95 C=temp_114 D=temp_74 E=temp_55 Y=temp_167
-.gate NOR2xp33_ASAP7_75t_L A=temp_13 B=temp_167 Y=temp_168
-.gate HAxp5_ASAP7_75t_L1 A=134 B=temp_168 CON=temp_169
-.gate HAxp5_ASAP7_75t_L1 A=temp_168 B=temp_169 CON=temp_170
-.gate HAxp5_ASAP7_75t_L1 A=134 B=temp_169 CON=temp_171
-.gate HAxp5_ASAP7_75t_L1 A=temp_171 B=temp_170 CON=1343
-.gate NOR2xp33_ASAP7_75t_L A=temp_32 B=temp_167 Y=temp_172
-.gate HAxp5_ASAP7_75t_L1 A=127 B=temp_172 CON=temp_173
-.gate HAxp5_ASAP7_75t_L1 A=temp_172 B=temp_173 CON=temp_174
-.gate HAxp5_ASAP7_75t_L1 A=127 B=temp_173 CON=temp_175
-.gate HAxp5_ASAP7_75t_L1 A=temp_175 B=temp_174 CON=1342
-.gate NOR5xp2_ASAP7_75t_L A=temp_103 B=temp_96 C=temp_88 D=temp_75 E=temp_113 Y=temp_176
-.gate HAxp5_ASAP7_75t_L1 A=temp_49 B=temp_176 CON=temp_177
-.gate INVx1_ASAP7_75t_L A=temp_177 Y=temp_178
-.gate HAxp5_ASAP7_75t_L1 A=120 B=temp_178 CON=temp_179
-.gate HAxp5_ASAP7_75t_L1 A=temp_178 B=temp_179 CON=temp_180
-.gate HAxp5_ASAP7_75t_L1 A=120 B=temp_179 CON=temp_181
-.gate HAxp5_ASAP7_75t_L1 A=temp_181 B=temp_180 CON=1341
-.gate NOR2xp33_ASAP7_75t_L A=temp_46 B=temp_167 Y=temp_182
-.gate HAxp5_ASAP7_75t_L1 A=113 B=temp_182 CON=temp_183
-.gate HAxp5_ASAP7_75t_L1 A=temp_182 B=temp_183 CON=temp_184
-.gate HAxp5_ASAP7_75t_L1 A=113 B=temp_183 CON=temp_185
-.gate HAxp5_ASAP7_75t_L1 A=temp_185 B=temp_184 CON=1340
-.gate NAND4xp25_ASAP7_75t_L A=temp_115 B=temp_95 C=temp_88 D=temp_74 Y=temp_186
-.gate NAND4xp25_ASAP7_75t_L A=temp_103 B=temp_96 C=temp_88 D=temp_74 Y=temp_187
-.gate NAND4xp25_ASAP7_75t_L A=temp_103 B=temp_95 C=temp_114 D=temp_74 Y=temp_188
-.gate NAND4xp25_ASAP7_75t_L A=temp_103 B=temp_95 C=temp_88 D=temp_75 Y=temp_189
-.gate AND4x1_ASAP7_75t_L A=temp_189 B=temp_188 C=temp_187 D=temp_186 Y=temp_190
-.gate NOR5xp2_ASAP7_75t_L A=temp_47 B=temp_39 C=temp_51 D=temp_13 E=temp_190 Y=temp_191
-.gate HAxp5_ASAP7_75t_L1 A=temp_75 B=temp_191 CON=temp_192
-.gate INVx1_ASAP7_75t_L A=temp_192 Y=temp_193
-.gate HAxp5_ASAP7_75t_L1 A=106 B=temp_193 CON=temp_194
-.gate HAxp5_ASAP7_75t_L1 A=temp_193 B=temp_194 CON=temp_195
-.gate HAxp5_ASAP7_75t_L1 A=106 B=temp_194 CON=temp_196
-.gate HAxp5_ASAP7_75t_L1 A=temp_196 B=temp_195 CON=1339
-.gate NAND4xp25_ASAP7_75t_L A=temp_189 B=temp_188 C=temp_187 D=temp_186 Y=temp_197
-.gate NAND5xp2_ASAP7_75t_L A=temp_46 B=temp_49 C=temp_32 D=temp_53 E=temp_197 Y=temp_198
-.gate NOR2xp33_ASAP7_75t_L A=temp_88 B=temp_198 Y=temp_199
-.gate HAxp5_ASAP7_75t_L1 A=99 B=temp_199 CON=temp_200
-.gate HAxp5_ASAP7_75t_L1 A=temp_199 B=temp_200 CON=temp_201
-.gate HAxp5_ASAP7_75t_L1 A=99 B=temp_200 CON=temp_202
-.gate HAxp5_ASAP7_75t_L1 A=temp_202 B=temp_201 CON=1338
-.gate NOR2xp33_ASAP7_75t_L A=temp_95 B=temp_198 Y=temp_203
-.gate HAxp5_ASAP7_75t_L1 A=92 B=temp_203 CON=temp_204
-.gate HAxp5_ASAP7_75t_L1 A=temp_203 B=temp_204 CON=temp_205
-.gate HAxp5_ASAP7_75t_L1 A=92 B=temp_204 CON=temp_206
-.gate HAxp5_ASAP7_75t_L1 A=temp_206 B=temp_205 CON=1337
-.gate NOR2xp33_ASAP7_75t_L A=temp_103 B=temp_198 Y=temp_207
-.gate HAxp5_ASAP7_75t_L1 A=85 B=temp_207 CON=temp_208
-.gate HAxp5_ASAP7_75t_L1 A=temp_207 B=temp_208 CON=temp_209
-.gate HAxp5_ASAP7_75t_L1 A=85 B=temp_208 CON=temp_210
-.gate HAxp5_ASAP7_75t_L1 A=temp_210 B=temp_209 CON=1336
-.gate NOR5xp2_ASAP7_75t_L A=temp_47 B=temp_39 C=temp_32 D=temp_53 E=temp_190 Y=temp_211
-.gate HAxp5_ASAP7_75t_L1 A=temp_75 B=temp_211 CON=temp_212
-.gate INVx1_ASAP7_75t_L A=temp_212 Y=temp_213
-.gate HAxp5_ASAP7_75t_L1 A=78 B=temp_213 CON=temp_214
-.gate HAxp5_ASAP7_75t_L1 A=temp_213 B=temp_214 CON=temp_215
-.gate HAxp5_ASAP7_75t_L1 A=78 B=temp_214 CON=temp_216
-.gate HAxp5_ASAP7_75t_L1 A=temp_216 B=temp_215 CON=1335
-.gate HAxp5_ASAP7_75t_L1 A=temp_114 B=temp_211 CON=temp_217
-.gate INVx1_ASAP7_75t_L A=temp_217 Y=temp_218
-.gate HAxp5_ASAP7_75t_L1 A=71 B=temp_218 CON=temp_219
-.gate HAxp5_ASAP7_75t_L1 A=temp_218 B=temp_219 CON=temp_220
-.gate HAxp5_ASAP7_75t_L1 A=71 B=temp_219 CON=temp_221
-.gate HAxp5_ASAP7_75t_L1 A=temp_221 B=temp_220 CON=1334
-.gate NAND5xp2_ASAP7_75t_L A=temp_46 B=temp_49 C=temp_51 D=temp_13 E=temp_197 Y=temp_222
-.gate NOR2xp33_ASAP7_75t_L A=temp_95 B=temp_222 Y=temp_223
-.gate HAxp5_ASAP7_75t_L1 A=64 B=temp_223 CON=temp_224
-.gate HAxp5_ASAP7_75t_L1 A=temp_223 B=temp_224 CON=temp_225
-.gate HAxp5_ASAP7_75t_L1 A=64 B=temp_224 CON=temp_226
-.gate HAxp5_ASAP7_75t_L1 A=temp_226 B=temp_225 CON=1333
-.gate HAxp5_ASAP7_75t_L1 A=temp_115 B=temp_211 CON=temp_227
-.gate INVx1_ASAP7_75t_L A=temp_227 Y=temp_228
-.gate HAxp5_ASAP7_75t_L1 A=57 B=temp_228 CON=temp_229
-.gate HAxp5_ASAP7_75t_L1 A=temp_228 B=temp_229 CON=temp_230
-.gate HAxp5_ASAP7_75t_L1 A=57 B=temp_229 CON=temp_231
-.gate HAxp5_ASAP7_75t_L1 A=temp_231 B=temp_230 CON=1332
-.gate NAND5xp2_ASAP7_75t_L A=temp_47 B=temp_39 C=temp_32 D=temp_53 E=temp_197 Y=temp_232
-.gate NOR2xp33_ASAP7_75t_L A=temp_74 B=temp_232 Y=temp_233
-.gate HAxp5_ASAP7_75t_L1 A=50 B=temp_233 CON=temp_234
-.gate HAxp5_ASAP7_75t_L1 A=temp_233 B=temp_234 CON=temp_235
-.gate HAxp5_ASAP7_75t_L1 A=50 B=temp_234 CON=temp_236
-.gate HAxp5_ASAP7_75t_L1 A=temp_236 B=temp_235 CON=1331
-.gate NOR2xp33_ASAP7_75t_L A=temp_88 B=temp_232 Y=temp_237
-.gate HAxp5_ASAP7_75t_L1 A=43 B=temp_237 CON=temp_238
-.gate HAxp5_ASAP7_75t_L1 A=temp_237 B=temp_238 CON=temp_239
-.gate HAxp5_ASAP7_75t_L1 A=43 B=temp_238 CON=temp_240
-.gate HAxp5_ASAP7_75t_L1 A=temp_240 B=temp_239 CON=1330
-.gate NOR5xp2_ASAP7_75t_L A=temp_46 B=temp_49 C=temp_51 D=temp_13 E=temp_190 Y=temp_241
-.gate HAxp5_ASAP7_75t_L1 A=temp_96 B=temp_241 CON=temp_242
-.gate INVx1_ASAP7_75t_L A=temp_242 Y=temp_243
-.gate HAxp5_ASAP7_75t_L1 A=36 B=temp_243 CON=temp_244
-.gate HAxp5_ASAP7_75t_L1 A=temp_243 B=temp_244 CON=temp_245
-.gate HAxp5_ASAP7_75t_L1 A=36 B=temp_244 CON=temp_246
-.gate HAxp5_ASAP7_75t_L1 A=temp_246 B=temp_245 CON=1329
-.gate NOR2xp33_ASAP7_75t_L A=temp_103 B=temp_232 Y=temp_247
-.gate HAxp5_ASAP7_75t_L1 A=29 B=temp_247 CON=temp_248
-.gate HAxp5_ASAP7_75t_L1 A=temp_247 B=temp_248 CON=temp_249
-.gate HAxp5_ASAP7_75t_L1 A=29 B=temp_248 CON=temp_250
-.gate HAxp5_ASAP7_75t_L1 A=temp_250 B=temp_249 CON=1328
-.gate NOR5xp2_ASAP7_75t_L A=temp_46 B=temp_49 C=temp_32 D=temp_53 E=temp_190 Y=temp_251
-.gate HAxp5_ASAP7_75t_L1 A=temp_75 B=temp_251 CON=temp_252
-.gate INVx1_ASAP7_75t_L A=temp_252 Y=temp_253
-.gate HAxp5_ASAP7_75t_L1 A=22 B=temp_253 CON=temp_254
-.gate HAxp5_ASAP7_75t_L1 A=temp_253 B=temp_254 CON=temp_255
-.gate HAxp5_ASAP7_75t_L1 A=22 B=temp_254 CON=temp_256
-.gate HAxp5_ASAP7_75t_L1 A=temp_256 B=temp_255 CON=1327
-.gate HAxp5_ASAP7_75t_L1 A=temp_114 B=temp_251 CON=temp_257
-.gate INVx1_ASAP7_75t_L A=temp_257 Y=temp_258
-.gate HAxp5_ASAP7_75t_L1 A=15 B=temp_258 CON=temp_259
-.gate HAxp5_ASAP7_75t_L1 A=temp_258 B=temp_259 CON=temp_260
-.gate HAxp5_ASAP7_75t_L1 A=15 B=temp_259 CON=temp_261
-.gate HAxp5_ASAP7_75t_L1 A=temp_261 B=temp_260 CON=1326
-.gate HAxp5_ASAP7_75t_L1 A=temp_96 B=temp_251 CON=temp_262
-.gate INVx1_ASAP7_75t_L A=temp_262 Y=temp_263
-.gate HAxp5_ASAP7_75t_L1 A=8 B=temp_263 CON=temp_264
-.gate HAxp5_ASAP7_75t_L1 A=temp_263 B=temp_264 CON=temp_265
-.gate HAxp5_ASAP7_75t_L1 A=8 B=temp_264 CON=temp_266
-.gate HAxp5_ASAP7_75t_L1 A=temp_266 B=temp_265 CON=1325
-.gate HAxp5_ASAP7_75t_L1 A=temp_115 B=temp_251 CON=temp_267
-.gate INVx1_ASAP7_75t_L A=temp_267 Y=temp_268
-.gate HAxp5_ASAP7_75t_L1 A=1 B=temp_268 CON=temp_269
-.gate HAxp5_ASAP7_75t_L1 A=temp_268 B=temp_269 CON=temp_270
-.gate HAxp5_ASAP7_75t_L1 A=1 B=temp_269 CON=temp_271
-.gate HAxp5_ASAP7_75t_L1 A=temp_271 B=temp_270 CON=1324
+.gate XNOR2xp5_ASAP7_75t_L A=218 B=190 Y=temp_1
+.gate XNOR2xp5_ASAP7_75t_L A=134 B=162 Y=temp_2
+.gate XNOR2xp5_ASAP7_75t_L A=temp_2 B=temp_1 Y=temp_3
+.gate NAND2xp33_ASAP7_75t_L A=232 B=233 Y=temp_4
+.gate XNOR2xp5_ASAP7_75t_L A=50 B=43 Y=temp_5
+.gate XNOR2xp5_ASAP7_75t_L A=36 B=29 Y=temp_6
+.gate XNOR2xp5_ASAP7_75t_L A=temp_6 B=temp_5 Y=temp_7
+.gate XNOR2xp5_ASAP7_75t_L A=99 B=106 Y=temp_8
+.gate XNOR2xp5_ASAP7_75t_L A=92 B=85 Y=temp_9
+.gate NOR2xp33_ASAP7_75t_L A=temp_9 B=temp_8 Y=temp_10
+.gate AOI21xp33_ASAP7_75t_L A1=temp_9 B=temp_10 A2=temp_8 Y=temp_11
+.gate XOR2xp5_ASAP7_75t_L A=temp_11 B=temp_7 Y=temp_12
+.gate XNOR2xp5_ASAP7_75t_L A=temp_12 B=temp_4 Y=temp_13
+.gate XNOR2xp5_ASAP7_75t_L A=temp_13 B=temp_3 Y=temp_14
+.gate NAND2xp33_ASAP7_75t_L A=231 B=233 Y=temp_15
+.gate XNOR2xp5_ASAP7_75t_L A=22 B=15 Y=temp_16
+.gate XNOR2xp5_ASAP7_75t_L A=8 B=1 Y=temp_17
+.gate XNOR2xp5_ASAP7_75t_L A=temp_17 B=temp_16 Y=temp_18
+.gate XNOR2xp5_ASAP7_75t_L A=57 B=64 Y=temp_19
+.gate XNOR2xp5_ASAP7_75t_L A=71 B=78 Y=temp_20
+.gate XNOR2xp5_ASAP7_75t_L A=temp_20 B=temp_19 Y=temp_21
+.gate XNOR2xp5_ASAP7_75t_L A=temp_21 B=temp_18 Y=temp_22
+.gate NOR2xp33_ASAP7_75t_L A=temp_22 B=temp_15 Y=temp_23
+.gate AOI21xp33_ASAP7_75t_L A1=temp_22 B=temp_23 A2=temp_15 Y=temp_24
+.gate XNOR2xp5_ASAP7_75t_L A=127 B=155 Y=temp_25
+.gate XNOR2xp5_ASAP7_75t_L A=211 B=183 Y=temp_26
+.gate NOR2xp33_ASAP7_75t_L A=temp_26 B=temp_25 Y=temp_27
+.gate AOI21xp33_ASAP7_75t_L A1=temp_26 B=temp_27 A2=temp_25 Y=temp_28
+.gate XNOR2xp5_ASAP7_75t_L A=temp_28 B=temp_24 Y=temp_29
+.gate NAND2xp33_ASAP7_75t_L A=230 B=233 Y=temp_30
+.gate XOR2xp5_ASAP7_75t_L A=temp_11 B=temp_21 Y=temp_31
+.gate NOR2xp33_ASAP7_75t_L A=temp_31 B=temp_30 Y=temp_32
+.gate AOI21xp33_ASAP7_75t_L A1=temp_31 B=temp_32 A2=temp_30 Y=temp_33
+.gate XNOR2xp5_ASAP7_75t_L A=148 B=120 Y=temp_34
+.gate XNOR2xp5_ASAP7_75t_L A=176 B=204 Y=temp_35
+.gate NOR2xp33_ASAP7_75t_L A=temp_35 B=temp_34 Y=temp_36
+.gate AOI21xp33_ASAP7_75t_L A1=temp_35 B=temp_36 A2=temp_34 Y=temp_37
+.gate XNOR2xp5_ASAP7_75t_L A=temp_37 B=temp_33 Y=temp_38
+.gate NAND2xp33_ASAP7_75t_L A=233 B=229 Y=temp_39
+.gate XNOR2xp5_ASAP7_75t_L A=temp_7 B=temp_18 Y=temp_40
+.gate XNOR2xp5_ASAP7_75t_L A=temp_40 B=temp_39 Y=temp_41
+.gate XNOR2xp5_ASAP7_75t_L A=169 B=197 Y=temp_42
+.gate XNOR2xp5_ASAP7_75t_L A=141 B=113 Y=temp_43
+.gate XNOR2xp5_ASAP7_75t_L A=temp_43 B=temp_42 Y=temp_44
+.gate NOR2xp33_ASAP7_75t_L A=temp_44 B=temp_41 Y=temp_45
+.gate AOI21xp33_ASAP7_75t_L A1=temp_44 B=temp_45 A2=temp_41 Y=temp_46
+.gate NAND4xp25_ASAP7_75t_L A=temp_46 B=temp_38 C=temp_29 D=temp_14 Y=temp_47
+.gate XNOR2xp5_ASAP7_75t_L A=temp_35 B=temp_34 Y=temp_48
+.gate XNOR2xp5_ASAP7_75t_L A=temp_31 B=temp_30 Y=temp_49
+.gate NOR2xp33_ASAP7_75t_L A=temp_49 B=temp_48 Y=temp_50
+.gate AOI21xp33_ASAP7_75t_L A1=temp_49 B=temp_50 A2=temp_48 Y=temp_51
+.gate NOR2xp33_ASAP7_75t_L A=temp_40 B=temp_39 Y=temp_52
+.gate AOI21xp33_ASAP7_75t_L A1=temp_40 B=temp_52 A2=temp_39 Y=temp_53
+.gate NOR2xp33_ASAP7_75t_L A=temp_43 B=temp_42 Y=temp_54
+.gate AOI21xp33_ASAP7_75t_L A1=temp_43 B=temp_54 A2=temp_42 Y=temp_55
+.gate XNOR2xp5_ASAP7_75t_L A=temp_55 B=temp_53 Y=temp_56
+.gate NAND4xp25_ASAP7_75t_L A=temp_56 B=temp_51 C=temp_29 D=temp_14 Y=temp_57
+.gate XNOR2xp5_ASAP7_75t_L A=temp_22 B=temp_15 Y=temp_58
+.gate XNOR2xp5_ASAP7_75t_L A=temp_26 B=temp_25 Y=temp_59
+.gate NOR2xp33_ASAP7_75t_L A=temp_59 B=temp_58 Y=temp_60
+.gate AOI21xp33_ASAP7_75t_L A1=temp_59 B=temp_60 A2=temp_58 Y=temp_61
+.gate NAND4xp25_ASAP7_75t_L A=temp_56 B=temp_38 C=temp_61 D=temp_14 Y=temp_62
+.gate NOR2xp33_ASAP7_75t_L A=temp_13 B=temp_3 Y=temp_63
+.gate AOI21xp33_ASAP7_75t_L A1=temp_13 B=temp_63 A2=temp_3 Y=temp_64
+.gate NAND4xp25_ASAP7_75t_L A=temp_56 B=temp_38 C=temp_29 D=temp_64 Y=temp_65
+.gate NAND4xp25_ASAP7_75t_L A=temp_65 B=temp_62 C=temp_57 D=temp_47 Y=temp_66
+.gate XNOR2xp5_ASAP7_75t_L A=106 B=78 Y=temp_67
+.gate XNOR2xp5_ASAP7_75t_L A=22 B=50 Y=temp_68
+.gate XNOR2xp5_ASAP7_75t_L A=temp_68 B=temp_67 Y=temp_69
+.gate NAND2xp33_ASAP7_75t_L A=233 B=228 Y=temp_70
+.gate XNOR2xp5_ASAP7_75t_L A=197 B=204 Y=temp_71
+.gate XNOR2xp5_ASAP7_75t_L A=211 B=218 Y=temp_72
+.gate XNOR2xp5_ASAP7_75t_L A=temp_72 B=temp_71 Y=temp_73
+.gate XNOR2xp5_ASAP7_75t_L A=162 B=155 Y=temp_74
+.gate XNOR2xp5_ASAP7_75t_L A=148 B=141 Y=temp_75
+.gate XNOR2xp5_ASAP7_75t_L A=temp_75 B=temp_74 Y=temp_76
+.gate XNOR2xp5_ASAP7_75t_L A=temp_76 B=temp_73 Y=temp_77
+.gate XNOR2xp5_ASAP7_75t_L A=temp_77 B=temp_70 Y=temp_78
+.gate NOR2xp33_ASAP7_75t_L A=temp_78 B=temp_69 Y=temp_79
+.gate AOI21xp33_ASAP7_75t_L A1=temp_78 B=temp_79 A2=temp_69 Y=temp_80
+.gate NAND2xp33_ASAP7_75t_L A=233 B=227 Y=temp_81
+.gate XNOR2xp5_ASAP7_75t_L A=169 B=176 Y=temp_82
+.gate XNOR2xp5_ASAP7_75t_L A=183 B=190 Y=temp_83
+.gate NOR2xp33_ASAP7_75t_L A=temp_83 B=temp_82 Y=temp_84
+.gate AOI21xp33_ASAP7_75t_L A1=temp_83 B=temp_84 A2=temp_82 Y=temp_85
+.gate XNOR2xp5_ASAP7_75t_L A=134 B=127 Y=temp_86
+.gate XNOR2xp5_ASAP7_75t_L A=120 B=113 Y=temp_87
+.gate NOR2xp33_ASAP7_75t_L A=temp_87 B=temp_86 Y=temp_88
+.gate AOI21xp33_ASAP7_75t_L A1=temp_87 B=temp_88 A2=temp_86 Y=temp_89
+.gate XNOR2xp5_ASAP7_75t_L A=temp_89 B=temp_85 Y=temp_90
+.gate XNOR2xp5_ASAP7_75t_L A=temp_90 B=temp_81 Y=temp_91
+.gate XNOR2xp5_ASAP7_75t_L A=71 B=99 Y=temp_92
+.gate XNOR2xp5_ASAP7_75t_L A=43 B=15 Y=temp_93
+.gate XNOR2xp5_ASAP7_75t_L A=temp_93 B=temp_92 Y=temp_94
+.gate XNOR2xp5_ASAP7_75t_L A=temp_94 B=temp_91 Y=temp_95
+.gate XNOR2xp5_ASAP7_75t_L A=36 B=8 Y=temp_96
+.gate XNOR2xp5_ASAP7_75t_L A=92 B=64 Y=temp_97
+.gate XNOR2xp5_ASAP7_75t_L A=temp_97 B=temp_96 Y=temp_98
+.gate NAND2xp33_ASAP7_75t_L A=233 B=226 Y=temp_99
+.gate XOR2xp5_ASAP7_75t_L A=temp_85 B=temp_73 Y=temp_100
+.gate XNOR2xp5_ASAP7_75t_L A=temp_100 B=temp_99 Y=temp_101
+.gate NOR2xp33_ASAP7_75t_L A=temp_101 B=temp_98 Y=temp_102
+.gate AOI21xp33_ASAP7_75t_L A1=temp_101 B=temp_102 A2=temp_98 Y=temp_103
+.gate NAND2xp33_ASAP7_75t_L A=225 B=233 Y=temp_104
+.gate XNOR2xp5_ASAP7_75t_L A=temp_87 B=temp_86 Y=temp_105
+.gate XNOR2xp5_ASAP7_75t_L A=temp_76 B=temp_105 Y=temp_106
+.gate XNOR2xp5_ASAP7_75t_L A=temp_106 B=temp_104 Y=temp_107
+.gate XNOR2xp5_ASAP7_75t_L A=57 B=85 Y=temp_108
+.gate XNOR2xp5_ASAP7_75t_L A=1 B=29 Y=temp_109
+.gate XNOR2xp5_ASAP7_75t_L A=temp_109 B=temp_108 Y=temp_110
+.gate XNOR2xp5_ASAP7_75t_L A=temp_110 B=temp_107 Y=temp_111
+.gate NAND5xp2_ASAP7_75t_L A=temp_111 B=temp_103 C=temp_95 D=temp_80 E=temp_66 Y=temp_112
+.gate NOR2xp33_ASAP7_75t_L A=temp_14 B=temp_112 Y=temp_113
+.gate NAND2xp33_ASAP7_75t_L A=218 B=temp_113 Y=temp_114
+.gate OA21x2_ASAP7_75t_L A1=218 B=temp_114 A2=temp_113 Y=1355
+.gate NOR2xp33_ASAP7_75t_L A=temp_29 B=temp_112 Y=temp_115
+.gate NAND2xp33_ASAP7_75t_L A=211 B=temp_115 Y=temp_116
+.gate OA21x2_ASAP7_75t_L A1=211 B=temp_116 A2=temp_115 Y=1354
+.gate NOR2xp33_ASAP7_75t_L A=temp_38 B=temp_112 Y=temp_117
+.gate NAND2xp33_ASAP7_75t_L A=204 B=temp_117 Y=temp_118
+.gate OA21x2_ASAP7_75t_L A1=204 B=temp_118 A2=temp_117 Y=1353
+.gate NOR2xp33_ASAP7_75t_L A=temp_56 B=temp_112 Y=temp_119
+.gate NAND2xp33_ASAP7_75t_L A=197 B=temp_119 Y=temp_120
+.gate OA21x2_ASAP7_75t_L A1=197 B=temp_120 A2=temp_119 Y=1352
+.gate NOR2xp33_ASAP7_75t_L A=temp_77 B=temp_70 Y=temp_121
+.gate AOI21xp33_ASAP7_75t_L A1=temp_77 B=temp_121 A2=temp_70 Y=temp_122
+.gate NOR2xp33_ASAP7_75t_L A=temp_68 B=temp_67 Y=temp_123
+.gate AOI21xp33_ASAP7_75t_L A1=temp_68 B=temp_123 A2=temp_67 Y=temp_124
+.gate XNOR2xp5_ASAP7_75t_L A=temp_124 B=temp_122 Y=temp_125
+.gate NOR2xp33_ASAP7_75t_L A=temp_94 B=temp_91 Y=temp_126
+.gate AOI21xp33_ASAP7_75t_L A1=temp_94 B=temp_126 A2=temp_91 Y=temp_127
+.gate NAND5xp2_ASAP7_75t_L A=temp_111 B=temp_103 C=temp_127 D=temp_125 E=temp_66 Y=temp_128
+.gate NOR2xp33_ASAP7_75t_L A=temp_14 B=temp_128 Y=temp_129
+.gate NAND2xp33_ASAP7_75t_L A=190 B=temp_129 Y=temp_130
+.gate OA21x2_ASAP7_75t_L A1=190 B=temp_130 A2=temp_129 Y=1351
+.gate NOR2xp33_ASAP7_75t_L A=temp_29 B=temp_128 Y=temp_131
+.gate NAND2xp33_ASAP7_75t_L A=183 B=temp_131 Y=temp_132
+.gate OA21x2_ASAP7_75t_L A1=183 B=temp_132 A2=temp_131 Y=1350
+.gate NOR2xp33_ASAP7_75t_L A=temp_38 B=temp_128 Y=temp_133
+.gate NAND2xp33_ASAP7_75t_L A=176 B=temp_133 Y=temp_134
+.gate OA21x2_ASAP7_75t_L A1=176 B=temp_134 A2=temp_133 Y=1349
+.gate NOR2xp33_ASAP7_75t_L A=temp_56 B=temp_128 Y=temp_135
+.gate NAND2xp33_ASAP7_75t_L A=169 B=temp_135 Y=temp_136
+.gate OA21x2_ASAP7_75t_L A1=169 B=temp_136 A2=temp_135 Y=1348
+.gate XNOR2xp5_ASAP7_75t_L A=temp_101 B=temp_98 Y=temp_137
+.gate NOR2xp33_ASAP7_75t_L A=temp_110 B=temp_107 Y=temp_138
+.gate AOI21xp33_ASAP7_75t_L A1=temp_110 B=temp_138 A2=temp_107 Y=temp_139
+.gate NAND5xp2_ASAP7_75t_L A=temp_139 B=temp_137 C=temp_95 D=temp_80 E=temp_66 Y=temp_140
+.gate NOR2xp33_ASAP7_75t_L A=temp_14 B=temp_140 Y=temp_141
+.gate NAND2xp33_ASAP7_75t_L A=162 B=temp_141 Y=temp_142
+.gate OA21x2_ASAP7_75t_L A1=162 B=temp_142 A2=temp_141 Y=1347
+.gate NOR2xp33_ASAP7_75t_L A=temp_29 B=temp_140 Y=temp_143
+.gate NAND2xp33_ASAP7_75t_L A=155 B=temp_143 Y=temp_144
+.gate OA21x2_ASAP7_75t_L A1=155 B=temp_144 A2=temp_143 Y=1346
+.gate NOR2xp33_ASAP7_75t_L A=temp_38 B=temp_140 Y=temp_145
+.gate NAND2xp33_ASAP7_75t_L A=148 B=temp_145 Y=temp_146
+.gate OA21x2_ASAP7_75t_L A1=148 B=temp_146 A2=temp_145 Y=1345
+.gate NOR2xp33_ASAP7_75t_L A=temp_56 B=temp_140 Y=temp_147
+.gate NAND2xp33_ASAP7_75t_L A=141 B=temp_147 Y=temp_148
+.gate OA21x2_ASAP7_75t_L A1=141 B=temp_148 A2=temp_147 Y=1344
+.gate NAND5xp2_ASAP7_75t_L A=temp_139 B=temp_137 C=temp_127 D=temp_125 E=temp_66 Y=temp_149
+.gate NOR2xp33_ASAP7_75t_L A=temp_14 B=temp_149 Y=temp_150
+.gate NAND2xp33_ASAP7_75t_L A=134 B=temp_150 Y=temp_151
+.gate OA21x2_ASAP7_75t_L A1=134 B=temp_151 A2=temp_150 Y=1343
+.gate NOR2xp33_ASAP7_75t_L A=temp_29 B=temp_149 Y=temp_152
+.gate NAND2xp33_ASAP7_75t_L A=127 B=temp_152 Y=temp_153
+.gate OA21x2_ASAP7_75t_L A1=127 B=temp_153 A2=temp_152 Y=1342
+.gate NOR2xp33_ASAP7_75t_L A=temp_38 B=temp_149 Y=temp_154
+.gate NAND2xp33_ASAP7_75t_L A=120 B=temp_154 Y=temp_155
+.gate OA21x2_ASAP7_75t_L A1=120 B=temp_155 A2=temp_154 Y=1341
+.gate NOR2xp33_ASAP7_75t_L A=temp_56 B=temp_149 Y=temp_156
+.gate NAND2xp33_ASAP7_75t_L A=113 B=temp_156 Y=temp_157
+.gate OA21x2_ASAP7_75t_L A1=113 B=temp_157 A2=temp_156 Y=1340
+.gate NAND4xp25_ASAP7_75t_L A=temp_139 B=temp_137 C=temp_95 D=temp_125 Y=temp_158
+.gate NAND4xp25_ASAP7_75t_L A=temp_111 B=temp_103 C=temp_95 D=temp_125 Y=temp_159
+.gate NAND4xp25_ASAP7_75t_L A=temp_111 B=temp_137 C=temp_127 D=temp_125 Y=temp_160
+.gate NAND4xp25_ASAP7_75t_L A=temp_111 B=temp_137 C=temp_95 D=temp_80 Y=temp_161
+.gate NAND4xp25_ASAP7_75t_L A=temp_161 B=temp_160 C=temp_159 D=temp_158 Y=temp_162
+.gate NAND5xp2_ASAP7_75t_L A=temp_56 B=temp_51 C=temp_29 D=temp_64 E=temp_162 Y=temp_163
+.gate NOR2xp33_ASAP7_75t_L A=temp_125 B=temp_163 Y=temp_164
+.gate NAND2xp33_ASAP7_75t_L A=106 B=temp_164 Y=temp_165
+.gate OA21x2_ASAP7_75t_L A1=106 B=temp_165 A2=temp_164 Y=1339
+.gate NOR2xp33_ASAP7_75t_L A=temp_95 B=temp_163 Y=temp_166
+.gate NAND2xp33_ASAP7_75t_L A=99 B=temp_166 Y=temp_167
+.gate OA21x2_ASAP7_75t_L A1=99 B=temp_167 A2=temp_166 Y=1338
+.gate NOR2xp33_ASAP7_75t_L A=temp_137 B=temp_163 Y=temp_168
+.gate NAND2xp33_ASAP7_75t_L A=92 B=temp_168 Y=temp_169
+.gate OA21x2_ASAP7_75t_L A1=92 B=temp_169 A2=temp_168 Y=1337
+.gate NOR2xp33_ASAP7_75t_L A=temp_111 B=temp_163 Y=temp_170
+.gate NAND2xp33_ASAP7_75t_L A=85 B=temp_170 Y=temp_171
+.gate OA21x2_ASAP7_75t_L A1=85 B=temp_171 A2=temp_170 Y=1336
+.gate NAND5xp2_ASAP7_75t_L A=temp_56 B=temp_51 C=temp_61 D=temp_14 E=temp_162 Y=temp_172
+.gate NOR2xp33_ASAP7_75t_L A=temp_125 B=temp_172 Y=temp_173
+.gate NAND2xp33_ASAP7_75t_L A=78 B=temp_173 Y=temp_174
+.gate OA21x2_ASAP7_75t_L A1=78 B=temp_174 A2=temp_173 Y=1335
+.gate NOR2xp33_ASAP7_75t_L A=temp_95 B=temp_172 Y=temp_175
+.gate NAND2xp33_ASAP7_75t_L A=71 B=temp_175 Y=temp_176
+.gate OA21x2_ASAP7_75t_L A1=71 B=temp_176 A2=temp_175 Y=1334
+.gate NOR2xp33_ASAP7_75t_L A=temp_137 B=temp_172 Y=temp_177
+.gate NAND2xp33_ASAP7_75t_L A=64 B=temp_177 Y=temp_178
+.gate OA21x2_ASAP7_75t_L A1=64 B=temp_178 A2=temp_177 Y=1333
+.gate NOR2xp33_ASAP7_75t_L A=temp_111 B=temp_172 Y=temp_179
+.gate NAND2xp33_ASAP7_75t_L A=57 B=temp_179 Y=temp_180
+.gate OA21x2_ASAP7_75t_L A1=57 B=temp_180 A2=temp_179 Y=1332
+.gate NAND5xp2_ASAP7_75t_L A=temp_46 B=temp_38 C=temp_29 D=temp_64 E=temp_162 Y=temp_181
+.gate NOR2xp33_ASAP7_75t_L A=temp_125 B=temp_181 Y=temp_182
+.gate NAND2xp33_ASAP7_75t_L A=50 B=temp_182 Y=temp_183
+.gate OA21x2_ASAP7_75t_L A1=50 B=temp_183 A2=temp_182 Y=1331
+.gate NOR2xp33_ASAP7_75t_L A=temp_95 B=temp_181 Y=temp_184
+.gate NAND2xp33_ASAP7_75t_L A=43 B=temp_184 Y=temp_185
+.gate OA21x2_ASAP7_75t_L A1=43 B=temp_185 A2=temp_184 Y=1330
+.gate NOR2xp33_ASAP7_75t_L A=temp_137 B=temp_181 Y=temp_186
+.gate NAND2xp33_ASAP7_75t_L A=36 B=temp_186 Y=temp_187
+.gate OA21x2_ASAP7_75t_L A1=36 B=temp_187 A2=temp_186 Y=1329
+.gate NOR2xp33_ASAP7_75t_L A=temp_111 B=temp_181 Y=temp_188
+.gate NAND2xp33_ASAP7_75t_L A=29 B=temp_188 Y=temp_189
+.gate OA21x2_ASAP7_75t_L A1=29 B=temp_189 A2=temp_188 Y=1328
+.gate NAND5xp2_ASAP7_75t_L A=temp_46 B=temp_38 C=temp_61 D=temp_14 E=temp_162 Y=temp_190
+.gate NOR2xp33_ASAP7_75t_L A=temp_125 B=temp_190 Y=temp_191
+.gate NAND2xp33_ASAP7_75t_L A=22 B=temp_191 Y=temp_192
+.gate OA21x2_ASAP7_75t_L A1=22 B=temp_192 A2=temp_191 Y=1327
+.gate NOR2xp33_ASAP7_75t_L A=temp_95 B=temp_190 Y=temp_193
+.gate NAND2xp33_ASAP7_75t_L A=15 B=temp_193 Y=temp_194
+.gate OA21x2_ASAP7_75t_L A1=15 B=temp_194 A2=temp_193 Y=1326
+.gate NOR2xp33_ASAP7_75t_L A=temp_137 B=temp_190 Y=temp_195
+.gate NAND2xp33_ASAP7_75t_L A=8 B=temp_195 Y=temp_196
+.gate OA21x2_ASAP7_75t_L A1=8 B=temp_196 A2=temp_195 Y=1325
+.gate NOR2xp33_ASAP7_75t_L A=temp_111 B=temp_190 Y=temp_197
+.gate NAND2xp33_ASAP7_75t_L A=1 B=temp_197 Y=temp_198
+.gate OA21x2_ASAP7_75t_L A1=1 B=temp_198 A2=temp_197 Y=1324
 .end
